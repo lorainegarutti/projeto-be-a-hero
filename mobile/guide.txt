@@ -1,0 +1,2 @@
+Criação de versão mobile em React Native com expo, rodando diretamente com aparelho Android.
+Por fim, instalação do axios, responsável pelas chamadas HTTP

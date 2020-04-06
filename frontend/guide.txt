@@ -1,0 +1,8 @@
+Utilização do npx create-react-app -> react, react-dom, react-scripts
+
+Colocar o front-end no ar: deploy no netlify.
+React native: lançar nas lojas => vídeo gerando apk e ipa
+
+Próximas etapas de estudo: padrões de código (ESlint e Prettier)
+                            autenticação JWT
+                            styled components.

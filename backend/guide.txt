@@ -1,0 +1,44 @@
+Instalação do Node.js com framework Express via npm
+Utilização do Insomnia.Rest para retorno de rotas HTTP
+Instalação do Nodemon -D via npm
+Utilização do SQL query builder knex.js via npm (knex e banco de dados - sqlite3)
+Criação das tabelas de dados via Node.js + banco de dados sqlite3 (backend/src/database e ./database/migrations)
+Instalação do CORS
+
+Validação dos dados através da biblioteca celebrate (que une express ao joy)
+Teste unitários e de integração utilizando o Jest
+Instalação de cross-env para ser capaz de mudar a conexão (desenvolvendo => teste)
+Utilização da biblioteca Supertest para testes de integração com API
+
+
+Mais infos:
+Métodos HTTP
+    get: buscar/listar uma informação do back-end
+    post: criar uma informação no back-end
+    put: alterar uma informação no back-end
+    delete: deletar uma informação no back-end
+
+Tipos de parâmetros
+    query params: parâmetros nomeados enviados na rota após "?" (filtros, paginação)
+    route "params": parâmetros utilizados para identificar recursos ("/:id")
+    request "body": corpo da requisição utilizado para criar ou alterar recursos
+
+Bancos de dados
+    SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server (mais utilizado, maior controle, linguagem universal)
+    NoSQL: MongoDB, CouchDB (pouco estruturado)
+
+Entidades do projeto:
+    * ONG
+    * Casos (incidents)
+
+Funcionalidades do projeto:
+    * Login de ONG
+    * Logout de ONG
+    * Cadastrar nova ONG
+    * Cadastrar novos casos
+    * Deletar casos
+    * Listar casos específicos de cada ONG
+    * Listar todos os casos
+    * Entrar em contato com a ONG
+
+Para hospedar aplicação com node: Heroku (vídeos deploy heroku node) => Digital Ocean para app maiores
